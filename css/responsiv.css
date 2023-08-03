@@ -1,0 +1,118 @@
+@media (max-width:992px){
+    .menu-icon{
+        display: block;
+    }
+    .nav-item{
+        position: absolute;
+        background-color: #034f6dc0;
+        top: 62px;
+        width: 80%;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.42s ease-in;
+        height: 100vh;
+    }
+    .nav-item li{
+        padding: 8px 3%;
+    }
+    nav{
+        padding: 08px 0;
+    }
+    .nav-item.show{
+        left: 0;
+    }
+    /* .drop-menu{
+        position: absolute;
+        width: 100%;
+
+
+
+/* BG-CNT AND MAN IMAGE RESPONSIVE STARTS HERE *--========================================================/
+    } */
+    h1{
+        font-size: 3rem;
+        transition: all 0.42s ease-in;
+    }
+    .man-image img{
+        max-width: 300px;
+        transition: all 0.42s ease-in;
+    }
+    p{
+        font-size: 15px;
+        transition: all 0.42s ease-in;
+    }
+}
+@media  (max-width:740px){
+    h1{
+        font-size: 2rem;
+        transition: all 0.42s ease-in;
+    }
+    h1 span{
+        font-size: 2rem;
+        transition: all 0.42s ease-in;
+    }
+    .man-image img{
+        max-width: 200px;
+        transition: all 0.42s ease-in;
+    }
+    .get-started {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+    .get-started-2 {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+}
+@media (max-width:493px){
+    h1{
+        font-size: 25px;
+        transition: all 0.42s ease-in;
+    }
+    h1 span{
+        font-size: 20px;
+        transition: all 0.42s ease-in;
+    }
+    .man-image img{
+        max-width: 150px;
+        transition: all 0.42s ease-in;
+    }
+    p{
+        font-size: 10px;
+        transition: all 0.42s ease-in;
+    }
+
+}
+
+@media (max-width:367px){
+    .get-started {
+        padding: 10px 11px;
+        font-size: 12px;
+    }
+    .get-started-2 {
+        padding: 10px 11px;
+        font-size: 12px;
+        margin: 0 0;
+    }
+    h4{
+        font-size: 18;
+    }
+}
+@media (max-width:380px){
+    h1{
+        font-size: 20px;
+        transition: all 0.42s ease-in;
+    }
+    h1 span{
+        font-size: 18px;
+        transition: all 0.42s ease-in;
+    }
+    p{
+        margin: 7px 0;
+    }
+    h4{
+        font-size: 15;
+    }
+}
+/* BG-CNT AND MAN IMAGE RESPONSIVE ENDS HERE *--========================================================/
